@@ -50,7 +50,7 @@ const reducer = (state = initialState, action) => {
                 ...state,
                 expression: ''
             }
-        } else if (state.expression.length === 1) {
+        } else if (state.expression.length === 0) {
             return state;
         } else {
             return {
