@@ -9,7 +9,8 @@ const reducer = (state = initialState, action) => {
         if(state.amount) {
             return {
                 ...state,
-                expression: action.value
+                expression: action.value,
+                amount: false
             }
         } else {
             return {
