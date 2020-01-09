@@ -5,8 +5,8 @@ import {Button} from "reactstrap";
 class App extends Component {
     render() {
       return (
-            <div className='d-flex flex-column border rounded m-3' style={{width: '176px'}}>
-                <div className='border rounded m-1 text-right' style={{height: '30px'}}>
+            <div className='d-flex flex-column border rounded m-3 bg-light' style={{width: '176px'}}>
+                <div className='border rounded m-1 text-right pr-1' style={{height: '30px', background: '#fff'}}>
                     {this.props.store.expression}
                 </div>
                 <div className='d-flex'>
